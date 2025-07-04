@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+input{
+    width: 600px;
+    padding: 20px;
+}
+.submit{
+    padding: 20px;
+}
+.lists{
+    background-color: rgb(235, 235, 235);
+    list-style: none;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+.parent{
+    padding: 40px;
+}
+.btns{
+    display: flex;
+    gap: 20px;
+}
+.update,.delete{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+.delete{
+    background-color: red;
+}
